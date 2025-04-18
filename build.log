@@ -1,0 +1,98 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.shashankpk:BugBridgeApi >---------------------
+[INFO] Building BugBridgeApi 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ BugBridgeApi ---
+[INFO] Deleting C:\mobile\Switch\BugBridgeApi\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ BugBridgeApi ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ BugBridgeApi ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 13 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ BugBridgeApi ---
+[INFO] skip non existing resourceDirectory C:\mobile\Switch\BugBridgeApi\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ BugBridgeApi ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ BugBridgeApi ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.shashankpk.BugBridgeApi.BugBridgeApiApplicationTests
+19:45:18.607 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.shashankpk.BugBridgeApi.BugBridgeApiApplicationTests]: BugBridgeApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:45:19.994 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.shashankpk.BugBridgeApi.BugBridgeApiApplication for test class com.shashankpk.BugBridgeApi.BugBridgeApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-06T19:45:22.693+05:30  INFO 13948 --- [           main] c.s.B.BugBridgeApiApplicationTests       : Starting BugBridgeApiApplicationTests using Java 17.0.2 with PID 13948 (started by shash in C:\mobile\Switch\BugBridgeApi)
+2025-04-06T19:45:22.696+05:30  INFO 13948 --- [           main] c.s.B.BugBridgeApiApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-04-06T19:45:25.997+05:30  INFO 13948 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06T19:45:26.247+05:30  INFO 13948 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 1 JPA repository interface.
+2025-04-06T19:45:28.380+05:30  INFO 13948 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06T19:45:28.954+05:30  INFO 13948 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06T19:45:29.213+05:30  INFO 13948 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-06T19:45:30.323+05:30  INFO 13948 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-06T19:45:30.504+05:30  INFO 13948 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-06T19:45:31.717+05:30  INFO 13948 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69ce14e6
+2025-04-06T19:45:31.723+05:30  INFO 13948 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-06T19:45:32.113+05:30  WARN 13948 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06T19:45:32.206+05:30  INFO 13948 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06T19:45:35.896+05:30  INFO 13948 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06T19:45:36.126+05:30  INFO 13948 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06T19:45:37.527+05:30  INFO 13948 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-06T19:45:37.602+05:30  WARN 13948 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06T19:45:39.969+05:30  INFO 13948 --- [           main] c.s.B.BugBridgeApiApplicationTests       : Started BugBridgeApiApplicationTests in 18.579 seconds (process running for 24.428)
+Hibernate: select nextval('users_seq')
+Hibernate: insert into users (email,is_first_login,password,role,username,user_id) values (?,?,?,?,?,?)
+2025-04-06T19:45:40.538+05:30  WARN 13948 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2025-04-06T19:45:40.538+05:30 ERROR 13948 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "first_login" of relation "users" violates not-null constraint
+  Detail: Failing row contains (1, admin@bugbridge.com, f, $2a$10$RQM.oa10D.aJ6olnmnMTYuRQNkCaLa5fh22tCCQMLzerQtqxVsVne, ADMIN, admin, 2, null).
+2025-04-06T19:45:40.560+05:30  WARN 13948 --- [           main] c.s.BugBridgeApi.DataInitializer         : Admin user already exists
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.35 s -- in com.shashankpk.BugBridgeApi.BugBridgeApiApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ BugBridgeApi ---
+[INFO] Building jar: C:\mobile\Switch\BugBridgeApi\target\BugBridgeApi-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.4.4:repackage (repackage) @ BugBridgeApi ---
+[INFO] Replacing main artifact C:\mobile\Switch\BugBridgeApi\target\BugBridgeApi-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\mobile\Switch\BugBridgeApi\target\BugBridgeApi-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ BugBridgeApi ---
+[INFO] Installing C:\mobile\Switch\BugBridgeApi\pom.xml to C:\Users\shash\.m2\repository\com\shashankpk\BugBridgeApi\0.0.1-SNAPSHOT\BugBridgeApi-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\mobile\Switch\BugBridgeApi\target\BugBridgeApi-0.0.1-SNAPSHOT.jar to C:\Users\shash\.m2\repository\com\shashankpk\BugBridgeApi\0.0.1-SNAPSHOT\BugBridgeApi-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:13 min
+[INFO] Finished at: 2025-04-06T19:46:04+05:30
+[INFO] ------------------------------------------------------------------------
