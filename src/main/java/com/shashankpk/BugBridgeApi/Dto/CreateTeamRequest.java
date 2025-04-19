@@ -1,13 +1,11 @@
 package com.shashankpk.BugBridgeApi.Dto;
 
-import com.shashankpk.BugBridgeApi.Model.User;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CreateUserResponse {
-	boolean creationStatus;
-	String username;
+public class CreateTeamRequest {
+	String teamName;
+	String teamDescription;
 }

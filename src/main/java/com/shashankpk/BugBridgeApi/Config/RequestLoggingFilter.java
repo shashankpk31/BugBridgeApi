@@ -51,7 +51,7 @@ public class RequestLoggingFilter implements Filter{
         logger.info("RESPONSE: {} | Status: {} | Duration: {}ms | Body: {}",
                 req.getRequestURI(), res.getStatus(), duration, responseBody);
 
-        wrapperRes.copyBodyToResponse(); // Write cached response back
+        wrapperRes.copyBodyToResponse(); 
 	}
 
 }
