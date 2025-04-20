@@ -462,3 +462,49 @@ Caused by: java.net.UnknownHostException: dpg-d02bfb3e5dus73bk2r9g-a
 2025-04-20 20:47:22 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-04-20 20:47:22 [INFO] - HikariPool-1 - Shutdown initiated...
 2025-04-20 20:47:22 [INFO] - HikariPool-1 - Shutdown completed.
+2025-04-20 21:42:26 [INFO] - Starting BugBridgeApiApplication using Java 17.0.2 with PID 13816 (C:\mobile\Switch\BugBridgeApi\target\classes started by shash in C:\mobile\Switch\BugBridgeApi)
+2025-04-20 21:42:26 [DEBUG] - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-20 21:42:26 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:42:27 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-20 21:42:27 [INFO] - Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2025-04-20 21:42:28 [DEBUG] - Found AspectJ method: public java.lang.Object com.shashankpk.BugBridgeApi.Aspect.LoggingAspect.logMethodExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+2025-04-20 21:42:28 [DEBUG] - Found AspectJ method: public void com.shashankpk.BugBridgeApi.Aspect.LoggingAspect.logMethodEntry(org.aspectj.lang.JoinPoint)
+2025-04-20 21:42:28 [DEBUG] - Found AspectJ method: public void com.shashankpk.BugBridgeApi.Aspect.LoggingAspect.logMethodExit(org.aspectj.lang.JoinPoint,java.lang.Object)
+2025-04-20 21:42:28 [DEBUG] - Found AspectJ method: public void com.shashankpk.BugBridgeApi.Aspect.LoggingAspect.logException(org.aspectj.lang.JoinPoint,java.lang.Throwable)
+2025-04-20 21:42:29 [INFO] - Tomcat initialized with port 8080 (http)
+2025-04-20 21:42:29 [INFO] - Starting service [Tomcat]
+2025-04-20 21:42:29 [INFO] - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-20 21:42:29 [INFO] - Initializing Spring embedded WebApplicationContext
+2025-04-20 21:42:29 [INFO] - Root WebApplicationContext: initialization completed in 2493 ms
+2025-04-20 21:42:29 [INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-20 21:42:29 [INFO] - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-20 21:42:29 [INFO] - HHH000026: Second-level cache disabled
+2025-04-20 21:42:30 [INFO] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-20 21:42:30 [INFO] - HikariPool-1 - Starting...
+2025-04-20 21:42:31 [INFO] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@382d549a
+2025-04-20 21:42:31 [INFO] - HikariPool-1 - Start completed.
+2025-04-20 21:42:31 [WARN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-20 21:42:31 [INFO] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-20 21:42:34 [INFO] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-20 21:42:34 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20 21:42:35 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2025-04-20 21:42:35 [INFO] - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-20 21:42:35 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-20 21:42:36 [INFO] - Tomcat started on port 8080 (http) with context path '/'
+2025-04-20 21:42:36 [INFO] - Started BugBridgeApiApplication in 10.148 seconds (process running for 10.738)
+2025-04-20 21:42:36 [WARN] - SQL Error: 0, SQLState: 23505
+2025-04-20 21:42:36 [ERROR] - ERROR: duplicate key value violates unique constraint "uk6dotkott2kjsp8vw4d0m25fb7"
+  Detail: Key (email)=(admin@bugbridge.com) already exists.
+2025-04-20 21:42:36 [WARN] - Admin user already exists
+2025-04-20 21:44:06 [INFO] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20 21:44:06 [INFO] - Graceful shutdown complete
+2025-04-20 21:44:06 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-20 21:44:06 [INFO] - HikariPool-1 - Shutdown initiated...
+2025-04-20 21:44:06 [INFO] - HikariPool-1 - Shutdown completed.
